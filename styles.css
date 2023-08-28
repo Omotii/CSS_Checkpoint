@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    background-color: #dceebe;
+    
+}
+
+.doc-header {
+    background-color: darkolivegreen;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar {
+    background-color: rgb(152, 189, 87);
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-bar ul li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-bar ul li > a:link, a:visited {
+    color: darkolivegreen;
+    text-decoration: none;
+}
+
+h1, section, .para {
+    margin-bottom: 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: 
+}
+
+.body-container {
+    display: flex;
+    width: 100%;
+}
+
+.main-container {
+    padding: 20px 30px;
+}
+
+iframe {
+    margin-left: 20px;
+}
+
+.aside-container {
+    background-color: darkolivegreen;
+    height: 200px;
+    width: 300px;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 0 0 20px 20px;
+}
+
+form p {
+    color: white;
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.inputfield {
+    margin-bottom: 5px;
+    width: 90%;
+    border-radius: 7px;
+    padding: 8px;
+    border: 1px solid rgb(152, 189, 87);
+}
+
+.button {
+    width: 97%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    color: rgb(152, 189, 87);
+    font-weight: bold;
+    background-color: rgb(31, 36, 22);
+}
+
+footer {
+    background-color: darkolivegreen;
+    border-top: 3px solid rgb(152, 189, 87);
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+}
